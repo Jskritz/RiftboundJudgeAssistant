@@ -1,0 +1,1451 @@
+{
+  "title": "Tournament Rules (Option B schema)",
+  "lastUpdated": "2025-10-01",
+  "sections": {
+    "100": {
+      "title": "Introduction",
+      "intro": "",
+      "subsections": {
+        "101": {
+          "title": "Purpose: This document provides the frameworks and structures for Riftbound competitions by defining rules, responsibilities and procedures to be followed in all Riftbound competitions.",
+          "content": "",
+          "examples": [],
+          "subsubsections": {}
+        },
+        "102": {
+          "title": "Consistency: All Riftbound competitions must be run consistently regardless of their organizer or location to ensure equal treatment of players and interchangeability of events no matter the region or level.",
+          "content": "",
+          "examples": [],
+          "subsubsections": {}
+        },
+        "103": {
+          "title": "Responsibility:",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "103": {
+              "title": "",
+              "text": "Penalties: Individuals who violate the frameworks and structures in this document are subject to penalties at the appropriate Organized Play Level (OPL). See 205 for more information on Organized Play Levels.",
+              "examples": []
+            }
+          }
+        },
+        "104": {
+          "title": "Precedence:",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "104": {
+              "title": "",
+              "text": "vs. Specific Event Addenda: In some cases, information in this document may be contradicted by alternate or additional policies or procedures in official addenda for specific competitions. In all such cases, those addenda take precedence.",
+              "examples": []
+            }
+          }
+        },
+        "105": {
+          "title": "Alteration: Riot Games or its official Riftbound partners reserve the right to alter this document, or any subsequent competition-specific addenda, at any time without prior notice.",
+          "content": "",
+          "examples": [],
+          "subsubsections": {}
+        }
+      }
+    },
+    "200": {
+      "title": "Definitions",
+      "intro": "",
+      "subsections": {
+        "201": {
+          "title": "Competition Types: Riftbound competitions come in three types.",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "201": {
+              "title": "",
+              "text": "Local: Any competition that is neither premier nor qualifier.",
+              "examples": []
+            }
+          }
+        },
+        "202": {
+          "title": "Competition Format: Riftbound competitions can be run with one of two formats.",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "202": {
+              "title": "",
+              "text": "Multiple: Some competitions may consist of multiple formats within the same competition.",
+              "examples": []
+            }
+          }
+        },
+        "203": {
+          "title": "Units of Play:",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "203": {
+              "title": "",
+              "text": "Match: A Riftbound match is defined in the Core Rules.",
+              "examples": []
+            }
+          }
+        },
+        "204": {
+          "title": "Competition Roles: Every attendee at a competition has at least one of the following roles.",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "204": {
+              "title": "",
+              "text": "Spectator",
+              "examples": []
+            },
+            "204.1": {
+              "title": "",
+              "text": "Multiple: Any individual can act in any combination of official roles.",
+              "examples": []
+            },
+            "204.2": {
+              "title": "",
+              "text": "Judges equally serve as both rules arbiters and ambassadors of a healthy and welcoming environment for all players.",
+              "examples": []
+            },
+            "204.3": {
+              "title": "",
+              "text": "Maintaining records of the event results (by game and match) for a minimum period of 3 months for the purpose of appeals. See 413 for more information on appeals.",
+              "examples": []
+            },
+            "204.4": {
+              "title": "",
+              "text": "The head judge has ultimate discretion if situations arise where the written rules are unclear or inadequate.",
+              "examples": []
+            },
+            "204.5": {
+              "title": "",
+              "text": "Assist players in technically precise play (at low OPL). (This should generally not include strategic advice.)",
+              "examples": []
+            },
+            "204.6": {
+              "title": "",
+              "text": "Reporting on the competition afterward and including all necessary data.",
+              "examples": []
+            },
+            "204.7": {
+              "title": "",
+              "text": "Violations of the above responsibilities may be subject to penalties, suspension, or revocation of that player’s eligibility.",
+              "examples": []
+            },
+            "204.7.b": {
+              "title": "",
+              "text": "Presenting themselves physically for the competition for its duration.",
+              "examples": []
+            },
+            "204.7.d": {
+              "title": "",
+              "text": "Teammates are responsible for calling to the attention of a judge any rules or policy violations they observe in each others’ matches.",
+              "examples": []
+            },
+            "204.8": {
+              "title": "",
+              "text": "Competition officials may instruct that a spectator not observe a match.",
+              "examples": []
+            },
+            "204.8.c": {
+              "title": "",
+              "text": "Calling to the attention of a judge any rules or policy violation they observe while spectating.",
+              "examples": []
+            },
+            "204.8.c.2": {
+              "title": "",
+              "text": "At Casual and Competitive OPL, spectators can ask players to pause play while they call a matter to a judge’s attention.",
+              "examples": []
+            },
+            "204.8.d": {
+              "title": "",
+              "text": "At Professional OPL, spectators may not ask players to pause play while they call a matter to a judge’s attention.",
+              "examples": []
+            },
+            "204.8.e": {
+              "title": "",
+              "text": "At non-local competitions, there may be additional rules for spectator behavior and presence.",
+              "examples": []
+            }
+          }
+        },
+        "205": {
+          "title": "Organized Play Level (OPL): OPL is shorthand that helps communicate expectations to players and judges.",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "205": {
+              "title": "",
+              "text": "Professional (high): These competitions have significant rewards and prestige.",
+              "examples": []
+            },
+            "205.2": {
+              "title": "",
+              "text": "Generally, violations at this level have lower penalties, and are covered below in X.Y.Z.",
+              "examples": []
+            },
+            "205.2.b": {
+              "title": "",
+              "text": "There is no priority placed on technically precise play.",
+              "examples": []
+            },
+            "205.3": {
+              "title": "",
+              "text": "Generally, violations at this level have stricter penalties, and are covered below in X.Y.Z.",
+              "examples": []
+            },
+            "205.4": {
+              "title": "",
+              "text": "Generally, violations at this level have the strictest penalties, and are covered below in X.Y.Z.",
+              "examples": []
+            }
+          }
+        },
+        "206": {
+          "title": "Round Cycle: A round cycle is the duration (in turns) that contains the standard turn for all players.",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "206": {
+              "title": "",
+              "text": "Additional turns do not affect the round cycle.",
+              "examples": []
+            }
+          }
+        }
+      }
+    },
+    "300": {
+      "title": "Eligibility",
+      "intro": "",
+      "subsections": {
+        "301": {
+          "title": "Anyone is eligible to participate as a player in Riftbound competitions, unless you are:",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "301": {
+              "title": "",
+              "text": "Restricted by competition addenda regarding age, as long as those restrictions are messaged ahead of time (at low OPL).",
+              "examples": []
+            }
+          }
+        },
+        "302": {
+          "title": "Anyone is eligible to participate as a competition official, unless you are:",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "302": {
+              "title": "",
+              "text": "A player in that same competition, unless the competition explicitly allows it (non-premier competitions only).",
+              "examples": []
+            }
+          }
+        },
+        "303": {
+          "title": "If a competition official for an event participates in that event, it must be run at Casual OPL.",
+          "content": "",
+          "examples": [],
+          "subsubsections": {}
+        },
+        "304": {
+          "title": "Owners of organizations that run premier competitions may not play in those competitions, even if otherwise allowed.",
+          "content": "",
+          "examples": [],
+          "subsubsections": {}
+        },
+        "305": {
+          "title": "Some competitions have additional criteria regarding eligibility for players or competition officials (for example, invitation-only competitions).",
+          "content": "",
+          "examples": [],
+          "subsubsections": {}
+        },
+        "306": {
+          "title": "Employees of Riot and their families are subject to additional restrictions.",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "306": {
+              "title": "",
+              "text": "Families of employees are allowed to play in premier or qualifier competitions, if they are otherwise eligible to compete.",
+              "examples": []
+            },
+            "306.2": {
+              "title": "",
+              "text": "If the reward is product or cash, the employee or family member may claim that part of the reward.",
+              "examples": []
+            }
+          }
+        }
+      }
+    },
+    "400": {
+      "title": "Policies",
+      "intro": "",
+      "subsections": {
+        "401": {
+          "title": "Deck Registration",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "401": {
+              "title": "",
+              "text": "In a constructed event, a player’s deck must be registered prior to the start of the first round of competition.",
+              "examples": []
+            },
+            "401.1": {
+              "title": "",
+              "text": "The Head Judge may require deck registration at low OPL.",
+              "examples": []
+            }
+          }
+        },
+        "402": {
+          "title": "Deck Size",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "402": {
+              "title": "",
+              "text": "Otherwise, deck construction is defined in the Core Rules.",
+              "examples": []
+            }
+          }
+        },
+        "403": {
+          "title": "Sideboard",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "403": {
+              "title": "",
+              "text": "If a game restarts due to an in-game effect or due to corrective action by judges, the state of each player’s deck and sideboard must remain the same in the restarted game.",
+              "examples": []
+            },
+            "403.5": {
+              "title": "",
+              "text": "A player’s Main Deck must be exactly 40 cards after this process.",
+              "examples": []
+            }
+          }
+        },
+        "404": {
+          "title": "Match",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "404": {
+              "title": "",
+              "text": "If all sides have equal game wins, the match is a draw.",
+              "examples": []
+            }
+          }
+        },
+        "405": {
+          "title": "Start of Match Procedure",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "405": {
+              "title": "",
+              "text": "Players must arrive at their seats prior to the start of the round.",
+              "examples": []
+            }
+          }
+        },
+        "406": {
+          "title": "Start of Game Procedure",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "406": {
+              "title": "",
+              "text": "The setup process for a game of Riftbound is defined in the Core Rules. See CR 110. Setup Process. Additionally:",
+              "examples": []
+            },
+            "406.1": {
+              "title": "",
+              "text": "For the first game of a match, start of game procedures may be performed as soon as both players reach their assigned seat, even before the start of the round clock. Gameplay must wait for the round clock to begin.",
+              "examples": []
+            },
+            "406.1.d": {
+              "title": "",
+              "text": "A player may request a judge shuffle their deck in lieu of an opponent, to be honored at judge discretion.",
+              "examples": []
+            }
+          }
+        },
+        "407": {
+          "title": "Play First Rule",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "407": {
+              "title": "",
+              "text": "For alterations to this rule for 2v2, see 603.7.",
+              "examples": []
+            }
+          }
+        },
+        "408": {
+          "title": "End of Match Procedure",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "408": {
+              "title": "",
+              "text": "The winner of a match is the first player who reaches the appropriate game win score.",
+              "examples": []
+            },
+            "408.2": {
+              "title": "",
+              "text": "If the players are between games when the round time ends, no new game is started.",
+              "examples": []
+            },
+            "408.3": {
+              "title": "",
+              "text": "If players are tied on game wins, the match is a draw.",
+              "examples": []
+            }
+          }
+        },
+        "409": {
+          "title": "Tiebreakers",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "409": {
+              "title": "",
+              "text": "If after all tiebreakers are applied, two players are still of equal standing in the competition, the scorekeeper should use a random method to break the tie.",
+              "examples": []
+            },
+            "409.2": {
+              "title": "",
+              "text": "The player with higher opponents’ mean (average) game win%",
+              "examples": []
+            }
+          }
+        },
+        "410": {
+          "title": "Concessions and Intentional Draws",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "410": {
+              "title": "",
+              "text": "If a player refuses to play, tournament officials should treat that as conceding the match.",
+              "examples": []
+            }
+          }
+        },
+        "411": {
+          "title": "Deck Checks",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "411": {
+              "title": "",
+              "text": "Deck checks for the players in a match should occur after players have randomized and presented their decks, but before opening hands are drawn.",
+              "examples": []
+            },
+            "411.3": {
+              "title": "",
+              "text": "If a deck check is performed within a match, judges should grant a time extension to that match sufficient to cover the logistical time needed to perform the check.",
+              "examples": []
+            }
+          }
+        },
+        "412": {
+          "title": "Judge Calls",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "412": {
+              "title": "",
+              "text": "Time extensions should be granted if the total time of a judge call is more than 1 minute.",
+              "examples": []
+            }
+          }
+        },
+        "413": {
+          "title": "Appeals",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "413": {
+              "title": "",
+              "text": "If a penalty is applied outside the scope of a competition, the appeals process should follow what’s laid out on the official Riot Games website. [citation needed]",
+              "examples": []
+            }
+          }
+        },
+        "414": {
+          "title": "Dropping",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "414": {
+              "title": "",
+              "text": "Players can’t re-enter a competition after a top placement cut.",
+              "examples": []
+            }
+          }
+        },
+        "415": {
+          "title": "Tracking Score",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "415": {
+              "title": "",
+              "text": "Scores must be tracked, displayed, and updated legibly in writing.",
+              "examples": []
+            },
+            "415.3": {
+              "title": "",
+              "text": "If any player notices a score discrepancy, they must immediately make all players aware of it. If it can’t be resolved easily by the players, a judge must be called.",
+              "examples": []
+            }
+          }
+        },
+        "416": {
+          "title": "Taking Notes",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "416": {
+              "title": "",
+              "text": "Between games, players may refer to notes they made prior to the match. They do not have to reveal these notes to opponents.",
+              "examples": []
+            }
+          }
+        },
+        "417": {
+          "title": "Electronic Devices",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "417": {
+              "title": "",
+              "text": "The head judge may further restrict or permit usage of electronic devices.",
+              "examples": []
+            }
+          }
+        },
+        "418": {
+          "title": "Coverage",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "418": {
+              "title": "",
+              "text": "Judges should never honor a player's request to consult video capture.",
+              "examples": []
+            }
+          }
+        },
+        "419": {
+          "title": "Proxies and Alters",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "419": {
+              "title": "",
+              "text": "The head judge of a competition is the final decider on whether a card is acceptable for a competition.",
+              "examples": []
+            },
+            "419.2": {
+              "title": "",
+              "text": "The only exception is an official proxy issued by the head judge at their discretion to replace a card deemed unusable.",
+              "examples": []
+            },
+            "419.4": {
+              "title": "",
+              "text": "Contain offensive images or text.",
+              "examples": []
+            },
+            "419.5": {
+              "title": "",
+              "text": "Alters containing material outside of Riot Games intellectual property may not be permitted during matches that are streamed or otherwise broadcast.",
+              "examples": []
+            }
+          }
+        },
+        "420": {
+          "title": "Card Language Consistency",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "420": {
+              "title": "",
+              "text": "A player may call a judge at any time to get the Watcher wording for any card in the language of their preference.",
+              "examples": []
+            },
+            "420.1": {
+              "title": "",
+              "text": "All cards within the same deck or subset that can be shuffled together or drawn from randomly must be the same language. For",
+              "examples": []
+            },
+            "420.1.a": {
+              "title": "",
+              "text": "A player’s battlefields can be a different language than their Main Deck or Rune Deck.",
+              "examples": []
+            }
+          }
+        },
+        "421": {
+          "title": "Shuffling",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "421": {
+              "title": "",
+              "text": "When two or more cards are recycled to your Main Deck as part of a single action, the above procedures 1-7 should be followed for that group of cards to properly randomize them before recycling them.",
+              "examples": []
+            }
+          }
+        },
+        "422": {
+          "title": "Sleeves",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "422": {
+              "title": "",
+              "text": "At high OPL, sleeves must also not:",
+              "examples": []
+            },
+            "422.2": {
+              "title": "",
+              "text": "It’s suggested but not required that players use different sleeves for the different decks (Main, Rune).",
+              "examples": []
+            },
+            "422.6": {
+              "title": "",
+              "text": "Contain holographic patterns on the front or back.",
+              "examples": []
+            }
+          }
+        },
+        "423": {
+          "title": "Marked Cards",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "423": {
+              "title": "",
+              "text": "Judges may ask players to remove sleeves or replace any specific sleeve at any time during a competition.",
+              "examples": []
+            },
+            "424": {
+              "title": "",
+              "text": "At high OPL, players don’t need to inform opponents of accidentally revealed private information.",
+              "examples": []
+            }
+          }
+        }
+      }
+    },
+    "500": {
+      "title": "Communication",
+      "intro": "",
+      "subsections": {
+        "501": {
+          "title": "Requirements",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "501": {
+              "title": "",
+              "text": "Players are required to treat other players, tournament officials, and spectators with respect.",
+              "examples": []
+            }
+          }
+        },
+        "502": {
+          "title": "Information",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "502": {
+              "title": "",
+              "text": "Judges are encouraged to help players determine public information, but not derived information.",
+              "examples": []
+            },
+            "502.2": {
+              "title": "",
+              "text": "Players are not required to assist opponents in determining derived information.",
+              "examples": []
+            },
+            "502.4": {
+              "title": "",
+              "text": "Spells and abilities that resolved previously in the turn, and the sources of them are themselves public.",
+              "examples": []
+            },
+            "502.5": {
+              "title": "",
+              "text": "Consequences of actions that might happen in the future, such as a unit receiving a Might bonus from the Shield ability if a player attacks.",
+              "examples": []
+            }
+          }
+        },
+        "503": {
+          "title": "Shortcuts",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "503": {
+              "title": "",
+              "text": "The following are common shortcuts for Riftbound competitions:",
+              "examples": []
+            },
+            "503.9": {
+              "title": "",
+              "text": "When a player asks about choices normally made upon resolution, they are assumed to be passing priority and allowing the spell or ability to resolve.",
+              "examples": []
+            }
+          }
+        },
+        "504": {
+          "title": "Sequencing",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "504": {
+              "title": "",
+              "text": "Players can’t shortcut out-of-order in a way that gives them information prematurely that might affect decisions later in that sequence.",
+              "examples": []
+            },
+            "504.1": {
+              "title": "",
+              "text": "",
+              "examples": []
+            }
+          }
+        },
+        "505": {
+          "title": "Loops",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "505": {
+              "title": "",
+              "text": "Players who try to opt-out of shortcutting or propose incorrect shortcutting to use up time are cheating. See 704.8 for more information about cheating.",
+              "examples": []
+            },
+            "505.3": {
+              "title": "",
+              "text": "Two or more players",
+              "examples": []
+            }
+          }
+        },
+        "506": {
+          "title": "Triggered Abilities",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "506": {
+              "title": "",
+              "text": "A triggered ability that was forgotten is still considered to have triggered for the purpose of non-optional “once a turn” triggers.",
+              "examples": []
+            },
+            "506.1": {
+              "title": "",
+              "text": "Triggers caused by battlefields are controlled by the player triggering them, not the player who owns the battlefield.",
+              "examples": []
+            },
+            "506.2": {
+              "title": "",
+              "text": "At low OPL, it is not required to notify other players of their triggers, but it is encouraged for sportsmanship and learning.",
+              "examples": []
+            },
+            "506.3": {
+              "title": "",
+              "text": "Players can’t abuse this rule to intentionally forget their mandatory triggers. See 702.2 for more information about missed triggers as a penalty.",
+              "examples": []
+            }
+          }
+        },
+        "507": {
+          "title": "Teams in Separate Matches",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "507": {
+              "title": "",
+              "text": "Players that acquire secret or private information about a match in which a teammate is playing can’t communicate with that teammate for the remainder of that match. See CR 127. Privacy for information types",
+              "examples": []
+            }
+          }
+        },
+        "508": {
+          "title": "Layout",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "508": {
+              "title": "",
+              "text": "Ready objects must be oriented facing the controller. Exhausted objects must be oriented at a 90 degree rotation to ready objects, either clockwise or counterclockwise, but all exhausted objects must be rotated consistently.",
+              "examples": []
+            }
+          }
+        },
+        "509": {
+          "title": "Player Rewind",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "509": {
+              "title": "",
+              "text": "Teammates recommending a player rewind a decision before any other information is gained should not itself be considered new information.",
+              "examples": []
+            }
+          }
+        }
+      }
+    },
+    "600": {
+      "title": "Competition Formats",
+      "intro": "",
+      "subsections": {
+        "601": {
+          "title": "Constructed",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "601": {
+              "title": "",
+              "text": "Standard",
+              "examples": []
+            },
+            "601.1": {
+              "title": "",
+              "text": "In some competitions, the legal battlefields are different from the format-legal battlefields. If this is the case, it will be communicated to players via specific event addenda.",
+              "examples": []
+            },
+            "601.1.c": {
+              "title": "",
+              "text": "See 403 for more information about sideboards.",
+              "examples": []
+            },
+            "601.2": {
+              "title": "",
+              "text": "If a card is banned in a specific format, that card may not be included in a deck.",
+              "examples": []
+            },
+            "601.3": {
+              "title": "",
+              "text": "The current Standard consists of:",
+              "examples": []
+            },
+            "601.3.c": {
+              "title": "",
+              "text": "Origins (OGN)",
+              "examples": []
+            }
+          }
+        },
+        "602": {
+          "title": "Limited",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "602": {
+              "title": "",
+              "text": "Abnormal Product",
+              "examples": []
+            },
+            "602.1": {
+              "title": "",
+              "text": "Players may not use electronic devices to take notes or as a strategic aide during sealed deck building.",
+              "examples": []
+            },
+            "602.1.d": {
+              "title": "",
+              "text": "A sealed deck may play any signature spells that are fully included in its domain identity, even if they do not include the corresponding champion.",
+              "examples": []
+            },
+            "602.1.d.2": {
+              "title": "",
+              "text": "",
+              "examples": []
+            },
+            "602.1.e": {
+              "title": "",
+              "text": "If a player's deck doesn't include both a Champion Legend and a Chosen Champion, they draw a card at the start of their first beginning phase each game. (If they have neither, they still only draw one card.)",
+              "examples": []
+            },
+            "602.1.f": {
+              "title": "",
+              "text": "Players may change their domain identities while sideboarding as long as the resulting deck still meets c-d.",
+              "examples": []
+            },
+            "602.1.h": {
+              "title": "",
+              "text": "Players may select any battlefield from their sealed card pool during game start procedure.",
+              "examples": []
+            },
+            "602.1.h.2": {
+              "title": "",
+              "text": "Players may only use a specific battlefield once per match, but may use the same named battlefield as many times as they have copies of it in their sealed card pool.",
+              "examples": []
+            },
+            "602.1.i": {
+              "title": "",
+              "text": "Players may only include runes that match the domain identity of their main deck.",
+              "examples": []
+            },
+            "602.2": {
+              "title": "",
+              "text": "The deck constructed is registered on the same sheet.",
+              "examples": []
+            },
+            "602.3": {
+              "title": "",
+              "text": "Players must use exactly the decks provided, except as modified by any addenda to the competition.",
+              "examples": []
+            },
+            "602.3.b": {
+              "title": "",
+              "text": "This may override the limited deck construction rules above.",
+              "examples": []
+            },
+            "602.4": {
+              "title": "",
+              "text": "Even if a card is banned in constructed, it is legal to use in a limited deck as long as it is not also banned in that limited format.",
+              "examples": []
+            },
+            "602.5": {
+              "title": "",
+              "text": "In high OPL, this is not allowed and must be communicated as such by the head judge.",
+              "examples": []
+            },
+            "602.6": {
+              "title": "",
+              "text": "The head judge may, at their discretion, replace atypical product in these cases.",
+              "examples": []
+            }
+          }
+        },
+        "603": {
+          "title": "2v2",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "603": {
+              "title": "",
+              "text": "During matches, teammates sit next to each other in their registered AB order. The setup process for a game of Riftbound is defined in the Core Rules, with these additional exceptions for 2v2:",
+              "examples": []
+            },
+            "603.2": {
+              "title": "",
+              "text": "When registering, teams must specify an ordering for the players on their team for seating purposes by indicating an A player and a B player.",
+              "examples": []
+            },
+            "603.7": {
+              "title": "",
+              "text": "Once the appropriate step in the core rules process is reached, the team that earned the decision chooses where within the a.1-4 turn order play begins.",
+              "examples": []
+            },
+            "603.7.a": {
+              "title": "",
+              "text": "Return to the top of the order.",
+              "examples": []
+            },
+            "603.7.c": {
+              "title": "",
+              "text": "For games after the first game of a match, the losing team of the previous game gets to choose who plays first. If the previous game was a draw, the turn order from the previous game is maintained.",
+              "examples": []
+            }
+          }
+        },
+        "604": {
+          "title": "Event and Round Time Limits",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "604": {
+              "title": "",
+              "text": "For the Playoff portion of a competitive event, it’s recommended that rounds be untimed where possible.",
+              "examples": []
+            },
+            "604.2": {
+              "title": "",
+              "text": "Players are still expected to play at a reasonable pace. See 703.2 the Slow Play penalty.",
+              "examples": []
+            }
+          }
+        }
+      }
+    },
+    "700": {
+      "title": "Enforcement and Penalties",
+      "intro": "",
+      "subsections": {
+        "701": {
+          "title": "General",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "701": {
+              "title": "",
+              "text": "Investigations",
+              "examples": []
+            },
+            "701.1": {
+              "title": "",
+              "text": "If a player acts on information given in error by a competition official, the head judge can rewind the game to account for it, even if there were no other errors.",
+              "examples": []
+            },
+            "701.1.a": {
+              "title": "",
+              "text": "Players attempting to abuse error remedies to receive advantages are cheating.",
+              "examples": []
+            },
+            "701.1.d": {
+              "title": "",
+              "text": "A situation related to Unsporting Conduct is likely to escalate.",
+              "examples": []
+            },
+            "701.2": {
+              "title": "",
+              "text": "Disqualification: A penalty issued for errors that damage the integrity of the competition or for severe misconduct.",
+              "examples": []
+            },
+            "701.2.a": {
+              "title": "",
+              "text": "Time extensions should be granted if the total time to rule and correct is more than 1 minute.",
+              "examples": []
+            },
+            "701.2.b": {
+              "title": "",
+              "text": "If all players in a match receive a game loss simultaneously, the current game ends in a draw. All game losses are recorded but do not affect the match score.",
+              "examples": []
+            },
+            "701.2.c": {
+              "title": "",
+              "text": "Match losses are applied to the current match, or to the player’s next match in the competition if their previous match has ended.",
+              "examples": []
+            },
+            "701.2.d": {
+              "title": "",
+              "text": "This penalty can be issued by the head judge even without conclusive proof if the head judge determines the integrity of the competition has been compromised.",
+              "examples": []
+            },
+            "701.3": {
+              "title": "",
+              "text": "If a single error leads to multiple related penalties, judges should issue only the one with the most severe penalty.",
+              "examples": []
+            },
+            "701.4": {
+              "title": "",
+              "text": "Shuffles performed by a judge in this way are not considered shuffles in game terms.",
+              "examples": []
+            },
+            "701.5": {
+              "title": "",
+              "text": "To rewind:",
+              "examples": []
+            },
+            "701.5.b": {
+              "title": "",
+              "text": "Any judge may perform a simple rewind where they believe no information has been gained by the players.",
+              "examples": []
+            },
+            "701.5.d": {
+              "title": "",
+              "text": "If a player learned the identity of a card in a deck, but did not draw or channel it, it should be shuffled into the random part of the deck.",
+              "examples": []
+            },
+            "701.6": {
+              "title": "",
+              "text": "Suspended players may not enter Riftbound events. If a suspended player is found to have registered for an event, the organizer reserves the right to issue a disqualification at any time.",
+              "examples": []
+            }
+          }
+        },
+        "702": {
+          "title": "Game Play Errors",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "702": {
+              "title": "",
+              "text": "Failure to Maintain Game State [Warning]: A player does not call out another player’s failure to maintain the proper game state, including missed scoring from hold and conquer.",
+              "examples": []
+            },
+            "702.1": {
+              "title": "",
+              "text": "At low OPL, penalties should generally be less harsh and rewinds may be applied even if the erroring player gains an information advantage.",
+              "examples": []
+            },
+            "702.1.c": {
+              "title": "",
+              "text": "Penalties that require an opponent of the erroring player to make a choice can be made at random or by a judge if they can’t be avoided by a rewind.",
+              "examples": []
+            },
+            "702.2": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "702.2.f": {
+              "title": "",
+              "text": "Otherwise, the next opponent in turn order of the player who missed the trigger chooses whether to resolve the trigger immediately or miss it altogether.",
+              "examples": []
+            },
+            "702.3": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "702.3.b": {
+              "title": "",
+              "text": "Otherwise, instruct the players to continue playing.",
+              "examples": []
+            },
+            "702.4": {
+              "title": "",
+              "text": "If forgetting to draw was advantageous to the erroring player (",
+              "examples": []
+            },
+            "702.4.a": {
+              "title": "",
+              "text": "Otherwise, instruct the players to continue playing.",
+              "examples": []
+            },
+            "702.5": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "702.5.c": {
+              "title": "",
+              "text": "If the cards remain in a single deck, shuffle the deck appropriately to remove the information advantage.",
+              "examples": []
+            },
+            "702.6": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "702.6.b": {
+              "title": "",
+              "text": "Otherwise, instruct the players to continue playing.",
+              "examples": []
+            },
+            "702.6.b.2": {
+              "title": "",
+              "text": "If the specific runes can’t be identified, shuffle random runes instead.",
+              "examples": []
+            },
+            "702.7": {
+              "title": "",
+              "text": "If forgetting to channel runes was advantageous to the erroring player, this penalty is a [Warning] instead.",
+              "examples": []
+            },
+            "702.7.b": {
+              "title": "",
+              "text": "Otherwise, instruct the players to continue playing.",
+              "examples": []
+            },
+            "702.8": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "702.8.b": {
+              "title": "",
+              "text": "If a cost is overpaid and it is still the turn where the cost was paid, the overpaying player is considered to have the extra resources floating in their resource pool.",
+              "examples": []
+            },
+            "702.8.b.1": {
+              "title": "",
+              "text": "If overpaying a cost caused a result that would not otherwise have happened, it is a General Error. See 702.15 for more information about General Errors.",
+              "examples": []
+            },
+            "702.9": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "702.9.b": {
+              "title": "",
+              "text": "If rewinding is not possible, instruct the players to continue playing.",
+              "examples": []
+            },
+            "702.9.b.2": {
+              "title": "",
+              "text": "If runes were incorrectly recycled as part of the cost, rewind if possible.",
+              "examples": []
+            },
+            "702.10": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "702.10.b": {
+              "title": "",
+              "text": "If this is not possible, reveal the information to all players to remove the information advantage and instruct the players to continue playing.",
+              "examples": []
+            },
+            "702.11": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "702.11.b": {
+              "title": "",
+              "text": "If they decide not to, instruct the players to proceed.",
+              "examples": []
+            },
+            "702.12": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "702.12.b": {
+              "title": "",
+              "text": "If at a later stage in the game it is determined a player has more cards in hand than they should, the remedy should be applied at this time.",
+              "examples": []
+            },
+            "702.13": {
+              "title": "",
+              "text": "Upgrades to [Game Loss] if a player hides a card that doesn’t have the Hidden keyword and doesn’t correct it before it has an impact on an opponent’s action.",
+              "examples": []
+            },
+            "702.14": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "702.14.a": {
+              "title": "",
+              "text": "If this error is caught after gameplay has begun, instruct the players to proceed.",
+              "examples": []
+            },
+            "702.14.a.1": {
+              "title": "",
+              "text": "",
+              "examples": []
+            },
+            "702.15": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "702.15.c": {
+              "title": "",
+              "text": "Otherwise, instruct the players to continue playing.",
+              "examples": []
+            },
+            "702.16": {
+              "title": "",
+              "text": "Unlike other Game Play Errors, this error is primarily for tracking and never upgrades unless specifically instructed by the head judge.",
+              "examples": []
+            }
+          }
+        },
+        "703": {
+          "title": "Tournament Errors",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "703": {
+              "title": "",
+              "text": "Improperly Determining a Winner [Match Loss]: Games and matches of Riftbound must be decided by playing Riftbound appropriate to the tournament format.",
+              "examples": []
+            },
+            "703.1": {
+              "title": "",
+              "text": "At low OPL, penalties should generally be less harsh and rewinds may be applied even if the erroring player gains an information advantage.",
+              "examples": []
+            },
+            "703.1.c": {
+              "title": "",
+              "text": "Penalties that require an opponent of the erroring player to make a choice can be made at random or by a judge if they can’t be avoided by a rewind.",
+              "examples": []
+            },
+            "703.2": {
+              "title": "",
+              "text": "Intentionally stalling to gain an advantage is cheating. See 704.8 for more information about cheating.",
+              "examples": []
+            },
+            "703.3": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "703.3.a": {
+              "title": "",
+              "text": "A chosen champion that does not match the identity of the legend.",
+              "examples": []
+            },
+            "703.3.b": {
+              "title": "",
+              "text": "If the cards required to correct the decklist cannot be acquired in a timely manner, the head judge can issue a proxy.",
+              "examples": []
+            },
+            "703.4": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "703.4.a": {
+              "title": "",
+              "text": "A player’s deck is the incorrect deck size. See 402 for more information about deck size. (",
+              "examples": []
+            },
+            "703.4.b": {
+              "title": "",
+              "text": "If the cards required to correct the deck cannot be acquired in a timely manner, the head judge can issue a proxy.",
+              "examples": []
+            },
+            "703.4.b.2": {
+              "title": "",
+              "text": "In game one of a match a player realizes they forgot to restore their deck to a pre-sideboard state.",
+              "examples": []
+            },
+            "703.4.b.2.a": {
+              "title": "",
+              "text": "Shuffle the randomized portion of the main deck once this process is complete.",
+              "examples": []
+            },
+            "703.4.b.2.a.1": {
+              "title": "",
+              "text": "If sideboard cards are in the player's hand, they are replaced randomly by main deck cards that were incorrectly in the sideboard.",
+              "examples": []
+            },
+            "703.4.b.3": {
+              "title": "",
+              "text": "Players may request a judge check an opponent’s deck for legality. (",
+              "examples": []
+            },
+            "703.5": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "703.5.b": {
+              "title": "",
+              "text": "If any decisions were made based on incorrect communication, perform a rewind if possible.",
+              "examples": []
+            },
+            "703.6": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "703.6.d": {
+              "title": "",
+              "text": "If the cards required to correct the deck cannot be acquired in a timely manner, the head judge can issue a proxy.",
+              "examples": []
+            },
+            "703.7": {
+              "title": "",
+              "text": "Remedies:",
+              "examples": []
+            },
+            "703.7.c": {
+              "title": "",
+              "text": "A judge may randomize the player’s deck for them.",
+              "examples": []
+            },
+            "703.8": {
+              "title": "",
+              "text": "Players may call a judge before the round clock starts or in between games of a match to request up to a 10 minute time extension in lieu of penalty at the judge’s discretion. (",
+              "examples": []
+            },
+            "703.9": {
+              "title": "",
+              "text": "At a judge’s discretion, a player may receive assistance with the physical logistics of the competition, including game actions such as shuffling or card movement. This is not considered outside assistance.",
+              "examples": []
+            },
+            "703.10": {
+              "title": "",
+              "text": "Offering or accepting such offers is considered improperly determining a winner.",
+              "examples": []
+            }
+          }
+        },
+        "704": {
+          "title": "Unsporting Conduct",
+          "content": "",
+          "examples": [],
+          "subsubsections": {
+            "704": {
+              "title": "",
+              "text": "Cheating [Disqualification]: Riftbound does not tolerate cheating at any level of play.",
+              "examples": []
+            },
+            "704.1": {
+              "title": "",
+              "text": "If a player commits the same category of unsporting conduct [Warning] 2 or more times throughout all days of a competition, the penalty is upgraded to [Game Loss] and may be further upgraded at the discretion of the head judge.",
+              "examples": []
+            },
+            "704.2": {
+              "title": "",
+              "text": "",
+              "examples": []
+            },
+            "704.2.a": {
+              "title": "",
+              "text": "Offensive play materials",
+              "examples": []
+            },
+            "704.3": {
+              "title": "",
+              "text": "This penalty often comes with ejection from the venue at the discretion of tournament officials.",
+              "examples": []
+            },
+            "704.3.a": {
+              "title": "",
+              "text": "Displaying aggression",
+              "examples": []
+            },
+            "704.4": {
+              "title": "",
+              "text": "",
+              "examples": []
+            },
+            "704.4.a": {
+              "title": "",
+              "text": "Using sloppy play or game state representation to obscure strategy or information.",
+              "examples": []
+            },
+            "704.5": {
+              "title": "",
+              "text": "It is not bribery when, in the final round of the single-elimination portion of a tournament, with the tournament organizer’s permission, players mutually agree on a winner and how to divide the remaining prizes. In such cases, one player must agree to drop from the tournament. Prizes are then awarded based on each player’s final standing.",
+              "examples": []
+            },
+            "704.5.a": {
+              "title": "",
+              "text": "Receiving an offer is not considered bribery unless entertained or accepted, but the receiving player must inform a judge.",
+              "examples": []
+            },
+            "704.5.c": {
+              "title": "",
+              "text": "Players may end their participation in the tournament at this point or continue to play. If this is a major streamed event, players must continue to play for final rankings.",
+              "examples": []
+            },
+            "704.8": {
+              "title": "",
+              "text": "The head judge has ultimate discretion to issue penalties for cheating.",
+              "examples": []
+            },
+            "704.8.a": {
+              "title": "",
+              "text": "This includes attempting to create game errors to use a remedy to your advantage.",
+              "examples": []
+            }
+          }
+        }
+      }
+    }
+  }
+}

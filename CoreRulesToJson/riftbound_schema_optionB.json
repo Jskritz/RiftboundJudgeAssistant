@@ -1,0 +1,27 @@
+{
+  "title": "Riftbound Core Rules (Option B schema)",
+  "description": "Level1: Major sections (numbers ending in 00). Level2: Subsections (shaded numbers like 101). Level3: Flat list of all sub-subsections under each Level2 (keys like 103.1, 103.1.a).",
+  "types": {
+    "Document": {
+      "title": "string",
+      "lastUpdated": "string",
+      "sections": "object"
+    },
+    "Section (Level1)": {
+      "title": "string",
+      "intro": "string (optional)",
+      "subsections": "object mapping subsection-number -> Subsection"
+    },
+    "Subsection (Level2)": {
+      "title": "string",
+      "content": "string (free text)",
+      "examples": "array of strings (optional)",
+      "subsubsections": "object mapping sub-subsection-number -> SubSubsection"
+    },
+    "SubSubsection (Level3)": {
+      "title": "string",
+      "text": "string",
+      "examples": "array of strings (optional)"
+    }
+  }
+}
