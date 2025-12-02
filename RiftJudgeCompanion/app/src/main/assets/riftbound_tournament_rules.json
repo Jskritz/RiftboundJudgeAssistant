@@ -1,0 +1,24 @@
+{
+  "title": "Riftbound Tournament Rules",
+  "sections": {
+    "100": {
+      "title": "Tournament Formats","intro": "Overview of different competitive formats.",
+      "subsections": {
+        "101": {
+          "title": "Constructed",
+          "content": "Players bring their own decks.",
+          "subsubsections": {
+            "101.1": { "text": "Deck limits apply." },
+            "101.2": { "text": "Sideboard must contain exactly 15 cards." }
+          }
+        }
+      }
+    },
+    "200": {
+      "title": "Judge Conduct",
+      "subsections": {
+        "201": { "title": "Bias", "content": "Judges must remain impartial." }
+      }
+    }
+  }
+}
