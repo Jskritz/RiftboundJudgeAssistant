@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game Penalties Reference</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #000000;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fbbf24;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(251, 191, 36, 0.3);
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #fef3c7;
+            padding: 10px 20px;
+            border-radius: 25px;
+            box-shadow: 0 4px 6px rgba(251, 191, 36, 0.2);
+        }
+
+        .legend-color {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+        }
+
+        .penalties-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+        }
+
+        .penalty-card {
+            background: #fef3c7;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(251, 191, 36, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border-left: 6px solid;
+        }
+
+        .penalty-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(251, 191, 36, 0.4);
+        }
+
+        .penalty-card.no-penalty {
+            border-left-color: #10b981;
+        }
+
+        .penalty-card.warning {
+            border-left-color: #f59e0b;
+        }
+
+        .penalty-card.game-loss {
+            border-left-color: #ef4444;
+        }
+
+        .penalty-card.match-loss {
+            border-left-color: #dc2626;
+        }
+
+        .penalty-card.dq {
+            border-left-color: #7f1d1d;
+        }
+
+        .penalty-name {
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #1f2937;
+        }
+
+        .penalty-level {
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .no-penalty-badge {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .warning-badge {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .game-loss-badge {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .match-loss-badge {
+            background: #fecaca;
+            color: #7f1d1d;
+        }
+
+        .dq-badge {
+            background: #7f1d1d;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .penalties-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🎴 Card Game Penalties Reference</h1>
+
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color" style="background: #10b981;"></div>
+            <span>No Penalty</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #f59e0b;"></div>
+            <span>Warning</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #ef4444;"></div>
+            <span>Game Loss</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #dc2626;"></div>
+            <span>Match Loss</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #7f1d1d;"></div>
+            <span>Disqualification</span>
+        </div>
+    </div>
+
+    <div class="penalties-grid" id="penalties"></div>
+</div>
+
+<script>
+    const penalties = [
+        // No Penalty
+        { name: "Missed Trigger", level: "No Penalty" },
+        { name: "Forgot to Score", level: "No Penalty" },
+        { name: "Forgot to Draw", level: "No Penalty" },
+        { name: "Channeling too few Runes", level: "No Penalty" },
+        { name: "Overpay for Cost", level: "No Penalty" },
+        // Warning
+        { name: "Missed Trigger with Advantage", level: "Warning" },
+        { name: "Looking at Extra Cards", level: "Warning" },
+        { name: "Channeling too many Runes", level: "Warning" },
+        { name: "Mispayment for Cost", level: "Warning" },
+        { name: "Looking at Secret information", level: "Warning" },
+        { name: "Looking at Private information", level: "Warning" },
+        { name: "Drawing Extra Cards", level: "Warning" },
+        { name: "Nonpublic Card Error", level: "Warning" },
+        { name: "Mulligan Procedure Error", level: "Warning" },
+        { name: "General Error", level: "Warning" },
+        { name: "Failure to Maintain Game State", level: "Warning" },
+        { name: "Slow Play", level: "Warning" },
+        { name: "Deck Presentation Error", level: "Warning" },
+        { name: "Communication Violation", level: "Warning" },
+        { name: "Marked Cards", level: "Warning" },
+        { name: "Insufficient Randomization", level: "Warning" },
+        { name: "Outside Assistance Rejected", level: "Warning" },
+        { name: "Unsporting Minor", level: "Warning" },
+        { name: "Angle Shooting", level: "Warning" },
+        // Game Loss
+        { name: "Decklist Error", level: "Game Loss" },
+        { name: "Deck Presentation Error Other Player", level: "Game Loss" },
+        { name: "Deck Presentation Error Not easily Restored", level: "Game Loss" },
+        // Match Loss
+        { name: "Outside Assistance Accepted", level: "Match Loss" },
+        { name: "Improperly Determining Winner", level: "Match Loss" },
+        { name: "Bribery", level: "Match Loss" },
+        // Disqualification
+        { name: "Unsporting Major", level: "DQ" },
+        { name: "Wagering", level: "DQ" },
+        { name: "Theft", level: "DQ" },
+        { name: "Cheating", level: "DQ" }
+    ];
+
+    const container = document.getElementById('penalties');
+
+    penalties.forEach(penalty => {
+        const card = document.createElement('div');
+        const levelClass = penalty.level.toLowerCase().replace(' ', '-');
+        card.className = `penalty-card ${levelClass}`;
+
+        card.innerHTML = `
+            <div class="penalty-name">${penalty.name}</div>
+            <span class="penalty-level ${levelClass}-badge">${penalty.level}</span>
+        `;
+
+        container.appendChild(card);
+    });
+</script>
+</body>
+</html>

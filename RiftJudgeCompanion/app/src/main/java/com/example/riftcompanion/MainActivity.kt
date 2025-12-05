@@ -64,7 +64,7 @@ import androidx.compose.foundation.verticalScroll
 // --- Data Classes & Enums ---
 
 enum class Screen {
-    HOME, CORE_RULES, TOURNAMENT_RULES, REFERENCE_IMAGES
+    HOME, CORE_RULES, TOURNAMENT_RULES, REFERENCE_IMAGES, PENALTIES
 }
 
 enum class RuleType {
@@ -133,6 +133,7 @@ val AppColorScheme = darkColorScheme(
 fun AppNavigation() {
     var currentScreen by remember { mutableStateOf(Screen.HOME) }
 
+
     // Handle system back button
     BackHandler(enabled = currentScreen != Screen.HOME) {
         currentScreen = Screen.HOME
@@ -142,7 +143,8 @@ fun AppNavigation() {
         Screen.HOME -> HomeScreen(
             onCoreSelected = { currentScreen = Screen.CORE_RULES },
             onTournamentSelected = { currentScreen = Screen.TOURNAMENT_RULES },
-            onImagesSelected = { currentScreen = Screen.REFERENCE_IMAGES }
+            onImagesSelected = { currentScreen = Screen.REFERENCE_IMAGES },
+            onPenaltiesSelected = { currentScreen = Screen.PENALTIES }
         )
         Screen.CORE_RULES -> GenericRuleBookScreen(
             jsonFileName = "riftbound_core_rules_optionB.json",
@@ -157,6 +159,9 @@ fun AppNavigation() {
         Screen.REFERENCE_IMAGES -> ReferenceImagesScreen(
             onBack = { currentScreen = Screen.HOME }
         )
+        Screen.PENALTIES -> {
+            PenaltiesScreen(onBack = { currentScreen = Screen.HOME })
+        }
     }
 }
 
@@ -165,7 +170,8 @@ fun AppNavigation() {
 fun HomeScreen(
     onCoreSelected: () -> Unit,
     onTournamentSelected: () -> Unit,
-    onImagesSelected: () -> Unit
+    onImagesSelected: () -> Unit,
+    onPenaltiesSelected: () -> Unit
 ) {
     Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
         // 1. Create the scroll state
@@ -231,6 +237,24 @@ fun HomeScreen(
             ) {
                 Text(
                     text = "Reference Images",
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+            Spacer(modifier = Modifier.height(24.dp))
+
+            // Reference Images Button
+            Button(
+                onClick = onPenaltiesSelected,
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = MaterialTheme.colorScheme.secondary,
+                    contentColor = MaterialTheme.colorScheme.onSecondary
+                ),
+                modifier = Modifier.fillMaxWidth().height(80.dp),
+                shape = CutCornerShape(topEnd = 24.dp, bottomStart = 24.dp),
+            ) {
+                Text(
+                    text = "Penalites Reference",
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold
                 )
