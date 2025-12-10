@@ -1,2 +1,22 @@
-# RiftboundJudgeAssistant
-Simple app that contains the core rules and tournament rules for Riftbound. Also includes useful sources like diagrams and cheatsheets created by the community
+# Riftbound Judge Assistant
+
+**Riftbound Judge Assistant** is a specialized tool designed to help judges and tournament organizers to have easy access to resources that will help them in managing tournaments
+
+## Features
+
+- **Core Rules**: Core rules of the game, indexed and with search function
+- **Tournament Rules**: Tournament rules of the game, indexed and with search function
+- **Cheat sheets**: Diagrams and cheat sheets created by the community
+- **Penalties References**: List of possible infractions in high OPL and their respective penalties
+
+
+## Getting Started
+
+1. Go to Releases
+2. Download the apk
+3. Install the apk on your phone (Need permission to install from unknown sources)
+
+
+---
+
+*Learn more about Riftbound and tournament management at the official game site.*
