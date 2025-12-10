@@ -17,6 +17,10 @@
 3. Install the apk on your phone (Need permission to install from unknown sources)
 
 
+## Credits
+1. Setup and turn order image: user Somberlord [EU/FR] from the Riftbound community discord (pinned in general chat)
+2. Showdown image: user Somberlord [EU/FR] from the Riftbound community discord (pinned in general chat)
+
 ---
 
 *Learn more about Riftbound and tournament management at the official game site.*
