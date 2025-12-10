@@ -5,14 +5,14 @@ import pathlib
 from typing import Optional
 from pypdf import PdfReader
 
-PDF_PATH = pathlib.Path(r"c:\Users\Joshua\Documents\CoreRulesToJson\Riftbound Core Rules v1.1-100125.pdf")
-OUT_PATH = pathlib.Path(r"c:\Users\Joshua\Documents\CoreRulesToJson\riftbound_core_rules.json")
+PDF_PATH = pathlib.Path(r"C:\Users\Joshua\Documents\GitSources\RiftboundJudgeAssistant\CoreRulesToJson\Riftbound Core Rules v1.2.pdf")
+OUT_PATH = pathlib.Path(r"C:\Users\Joshua\Documents\GitSources\RiftboundJudgeAssistant\CoreRulesToJson\riftbound_core_rules.json")
 
 # Specify which IDs are Level1 (sections) and which are Level2 (shaded subsections).
 LEVEL1_IDS = ["000","100","300","700"]   # <- edit as needed
-LEVEL2_IDS = ["001","050","101","104","106","119","124","137","143","146","153","162","170","179",
-              "301","316","318","324","346","357","395","419","433","437","441","446","454","649",
-              "701","706","712","716"]         # <- edit as needed
+LEVEL2_IDS = ["001","050","101","104","119","124","139","145","149","156","165","169","173", "182", 
+              "301","318","324","346","357","395","423","437","441","445","450","458","649",
+              "701","706","712","716","720","726"]         # <- edit as needed
 
 ID_LINE_RE = re.compile(r'^\s*(\d{1,3}(?:\.[A-Za-z0-9]+)*)\.\s*(.*)$')  # captures "103.1.a.  text" -> "103.1.a", "text"
 LAST_UPDATED_RE = re.compile(r'Last\s*Updated\s*[:\-]\s*([\d]{4}-[\d]{2}-[\d]{2})', re.I)
