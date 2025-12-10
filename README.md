@@ -18,8 +18,12 @@
 
 
 ## Credits
+# Cheat Sheets
 1. Setup and turn order image: user Somberlord [EU/FR] from the Riftbound community discord (pinned in general chat)
 2. Showdown image: user Somberlord [EU/FR] from the Riftbound community discord (pinned in general chat)
+
+# Icons and Images
+1. App Icon: Official Riftbound Logo
 
 ---
 
