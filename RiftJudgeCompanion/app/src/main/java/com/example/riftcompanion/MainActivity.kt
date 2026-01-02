@@ -147,7 +147,7 @@ fun AppNavigation() {
             onPenaltiesSelected = { currentScreen = Screen.PENALTIES }
         )
         Screen.CORE_RULES -> GenericRuleBookScreen(
-            jsonFileName = "riftbound_core.json",
+            jsonFileName = "core_rules.json",
             screenTitle = "Core Rules",
             onBack = { currentScreen = Screen.HOME }
         )

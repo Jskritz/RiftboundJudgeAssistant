@@ -3,11 +3,12 @@ import json
 import pathlib
 from typing import Optional
 
-TXT_PATH = pathlib.Path(r"c:\Users\Joshua\Documents\CoreRulesToJson\TournamentRules.txt")
-OUT_PATH = pathlib.Path(r"c:\Users\Joshua\Documents\CoreRulesToJson\tournament_rules.json")
+TXT_PATH = pathlib.Path(r"C:\Users\Joshua\Documents\GitSources\RiftboundJudgeAssistant\CoreRulesToJson\Riftbound Core Rules v1.2.txt")
+OUT_PATH = pathlib.Path(r"C:\Users\Joshua\Documents\GitSources\RiftboundJudgeAssistant\CoreRulesToJson\core_rules.json")
 
 # Edit these lists to explicitly mark Level1 and Level2 ids.
 # If LEVEL1_IDS is empty, Level1 will be detected by numbers ending in "00" (e.g., 100, 200).
+## Tournament rules
 LEVEL1_IDS = ["000","100","200","300","400","500","600","700"]            # e.g. ["000","100","200","300"]
 LEVEL2_IDS = ["101","102","103","104","105",
               "201", "202","203","204","205","206",
@@ -16,6 +17,12 @@ LEVEL2_IDS = ["101","102","103","104","105",
               "500","501","502","503","504","505","506","507","508","509",
               "601","602","603","604",
               "701","702","703","704"]            # e.g. ["101","102","104"]
+## Core Rules
+LEVEL1_IDS = ["000","100","300","700"]   # <- edit as needed
+LEVEL2_IDS = ["001","050","101","104","119","124","139","145","149","156","165","169","173", "182", 
+              "301","318","324","346","357","395","423","437","441","445","450","458","649",
+              "701","706","712","716","720","726"]
+
 
 ID_LINE_RE = re.compile(r'^\s*(\d{1,3}(?:\.[A-Za-z0-9]+)*)\.\s*(.*)$')  # "103.1.a.  text"
 LAST_UPDATED_RE = re.compile(r'Last\s*Updated\s*[:\-]\s*([\d]{4}-[\d]{2}-[\d]{2})', re.I)
@@ -124,30 +131,36 @@ def parse_lines(lines):
             sec = last_target[1]
             cur = doc["sections"].setdefault(sec, {"title": "", "intro": "", "subsections": {}})
             if cur.get("intro"):
-                cur["intro"] += "\n" + ln
+                cur["intro"] += " " + ln
             else:
                 cur["intro"] = ln
         elif last_target[0] == "sub":
             _, sec, sub = last_target
             cur = doc["sections"].setdefault(sec, {"title": "", "intro": "", "subsections": {}})["subsections"].setdefault(sub, build_empty_subsection())
             if cur.get("content"):
-                cur["content"] += "\n" + ln
+                cur["content"] += " " + ln
             else:
                 cur["content"] = ln
         elif last_target[0] == "subsub":
             _, sec, sub, key = last_target
             cur_sub = doc["sections"].setdefault(sec, {"title": "", "intro": "", "subsections": {}})["subsections"].setdefault(sub, build_empty_subsection())
-            ss = cur_sub.setdefault("subsubsections", {}).setdefault(key, {"title": "", "text": "", "examples": []})
+            ss = cur_sub.setdefault("subsubsections", {}).setdefault(key, {"title": "", "text": "", "examples": [], "examples_started": False})
             bm = re.match(r'^[\*\u2022•\-]\s*(.*)$', ln)
             if bm:
                 ss.setdefault("examples", []).append(bm.group(1).strip())
+                ss["examples_started"] = True
+            elif re.search(r'\bExamples?\b', ln, flags=re.I):
+                # Once we hit "Example", stop adding to text
+                ss["examples_started"] = True
             else:
-                cleaned = strip_after_example_line(ln)
-                if cleaned:
-                    if ss.get("text"):
-                        ss["text"] += "\n" + cleaned
-                    else:
-                        ss["text"] = cleaned
+                # Only add to text if we haven't started examples yet
+                if not ss.get("examples_started"):
+                    cleaned = strip_after_example_line(ln)
+                    if cleaned:
+                        if ss.get("text"):
+                            ss["text"] += " " + cleaned
+                        else:
+                            ss["text"] = cleaned
 
     return doc
 
@@ -155,6 +168,13 @@ def main():
     raw = TXT_PATH.read_text(encoding='utf-8', errors='ignore')
     lines = normalize_lines(raw)
     doc = parse_lines(lines)
+    
+    # Clean up internal flags before saving
+    for section in doc.get("sections", {}).values():
+        for subsection in section.get("subsections", {}).values():
+            for ss in subsection.get("subsubsections", {}).values():
+                ss.pop("examples_started", None)
+    
     OUT_PATH.write_text(json.dumps(doc, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f"Wrote JSON to {OUT_PATH}")
 
