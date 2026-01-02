@@ -23,8 +23,12 @@
 2. Showdown image: user Somberlord [EU/FR] from the Riftbound community discord (pinned in general chat)
 
 # Icons and Images
-1. App Icon: Official Riftbound Logo
+1. App Icon: Created by ChatGPT
+
+# Assistants
+1. Vibe coded with Gemini
 
 ---
 
-*Learn more about Riftbound and tournament management at the official game site.*
+*Learn more about [Riftbound](https://riftbound.leagueoflegends.com/en-us/) and tournament management at the official game site.*
+
